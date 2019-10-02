@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{035855A0-49E6-035C-2430-35BEFACA34DB}</ProjectGuid>
+    <ProjectGuid>{90C7712E-1C1C-6FFB-6BC3-66EE8B6BC828}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,8 +61,10 @@
      <Compile Include="Assets\MMD4Mecanim\Scripts\MMD4MecanimMorphHelper.cs" />
      <Compile Include="Assets\MMD4Mecanim\Scripts\MMD4MecanimRigidBody.cs" />
      <Compile Include="Assets\MMD4Mecanim\Scripts\MMD4MecanimSpeechHelper.cs" />
+     <Compile Include="Assets\PolarizedPlatformPack\Demo\Scripts\ViewDrag.cs" />
      <Compile Include="Assets\Script\Common\Constant.cs" />
      <Compile Include="Assets\Script\Common\DragonLoopAnimate.cs" />
+     <Compile Include="Assets\Script\Common\NewBehaviourScript.cs" />
      <Compile Include="Assets\Script\Common\PathDefine.cs" />
      <Compile Include="Assets\Script\Common\SystemRoot.cs" />
      <Compile Include="Assets\Script\Common\Tools.cs" />
@@ -83,6 +85,7 @@
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-NoShadowCasting-BothFaces.shader" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-BothFaces-Edge.shader" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-NoShadowCasting-BothFaces-Transparent.shader" />
+     <None Include="Assets\Resources\Miku_Ver1_RedNie\ちびAppearanceミクVer1_51小尾巴.xml" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess.shader" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NEXTEdge-ForwardBase.cginc" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-SurfaceEdge-Lighting.cginc" />
@@ -93,6 +96,7 @@
      <None Include="Assets\Resources\Tda\Lat Miku 2020.xml" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-NoShadowCasting-BothFaces-Edge.shader" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Edge.shader" />
+     <None Include="Assets\Resources\Miku_Ver1_RedNie\ちびAppearanceミクVer1_51小尾巴2.xml" />
      <None Include="Assets\Resources\Tda\readme\WYKP Readme.txt" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-NoShadowCasting-Transparent.shader" />
      <None Include="Assets\Resources\Tda\Lat Miku 2020.MMD4Mecanim.xml" />
@@ -125,6 +129,7 @@
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-ForwardBase.cginc" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-NoShadowCasting.shader" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-AutoLight.cginc" />
+     <None Include="Assets\Resources\Miku_Ver1_RedNie\ちびAppearanceミクVer1_51小尾巴.MMD4Mecanim.xml" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Transparent.shader" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Compatible.cginc" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Dummy.shader" />
@@ -144,42 +149,43 @@
      <None Include="Assets\Resources\Miku_Ver1_RedNie\AppearanceVer1_51.MMD4Mecanim.xml" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Lighting.cginc" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-Lighting.cginc" />
+     <None Include="Assets\Resources\Miku_Ver1_RedNie\ちびAppearanceミクVer1_51小尾巴2.MMD4Mecanim.xml" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NEXTEdge-Pass8.shader" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>E:/Unity/XDarkHeroLrxin/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>E:/Unity/XDarkHeroLrxin/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>E:/Unity/XDarkHeroLrxin/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ugui">
- <HintPath>E:/Unity/XDarkHeroLrxin/Library/ScriptAssemblies/Unity.ugui.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Library/ScriptAssemblies/Unity.ugui.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>E:/Unity/XDarkHeroLrxin/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>E:/Unity/XDarkHeroLrxin/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>E:/Unity/XDarkHeroLrxin/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>E:/Unity/XDarkHeroLrxin/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>E:/Unity/XDarkHeroLrxin/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>E:/Unity/XDarkHeroLrxin/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>E:/Unity/XDarkHeroLrxin/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ugui.Editor">
- <HintPath>E:/Unity/XDarkHeroLrxin/Library/ScriptAssemblies/Unity.ugui.Editor.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Library/ScriptAssemblies/Unity.ugui.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>F:/Unity_Project/2019/Editor/2019.3.0a3/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -356,22 +362,22 @@
  <HintPath>F:/Unity_Project/2019/Editor/2019.3.0a3/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="MMD4Mecanim">
- <HintPath>E:/Unity/XDarkHeroLrxin/Assets/MMD4Mecanim/Scripts/MMD4Mecanim.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Assets/MMD4Mecanim/Scripts/MMD4Mecanim.dll</HintPath>
  </Reference>
  <Reference Include="PEProtocol">
- <HintPath>E:/Unity/XDarkHeroLrxin/Assets/Script/Net/PEProtocol.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Assets/Script/Net/PEProtocol.dll</HintPath>
  </Reference>
  <Reference Include="PESocket">
- <HintPath>E:/Unity/XDarkHeroLrxin/Assets/Script/Net/PESocket.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Assets/Script/Net/PESocket.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>E:/Unity/XDarkHeroLrxin/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>E:/Unity/XDarkHeroLrxin/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>E:/Unity/XDarkHeroLrxin/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>E:/Unity/XDarkHero/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>F:/Unity_Project/2019/Editor/2019.3.0a3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
