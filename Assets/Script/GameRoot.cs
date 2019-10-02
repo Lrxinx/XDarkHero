@@ -14,7 +14,7 @@ public class GameRoot : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(this);
         ClearnUIRoot();
-        Init();
+        Init();        
     }
 
     /// <summary>
