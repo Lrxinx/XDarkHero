@@ -64,7 +64,6 @@
      <Compile Include="Assets\PolarizedPlatformPack\Demo\Scripts\ViewDrag.cs" />
      <Compile Include="Assets\Script\Common\Constant.cs" />
      <Compile Include="Assets\Script\Common\DragonLoopAnimate.cs" />
-     <Compile Include="Assets\Script\Common\NewBehaviourScript.cs" />
      <Compile Include="Assets\Script\Common\PathDefine.cs" />
      <Compile Include="Assets\Script\Common\SystemRoot.cs" />
      <Compile Include="Assets\Script\Common\Tools.cs" />
