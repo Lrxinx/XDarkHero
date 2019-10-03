@@ -56,7 +56,7 @@ public class NetSvc : MonoBehaviour
         }
     }
 
-    private void Update()
+    public void Update()
     {
         
     }

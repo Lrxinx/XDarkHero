@@ -26,5 +26,9 @@ class ServerRoot
         //Business Layer
         LoginSys.Instance.Init();
     }
+
+    public void Update(){
+        NetworkService.Instance.Update();      
+    }
 }
 
