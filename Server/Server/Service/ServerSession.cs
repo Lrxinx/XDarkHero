@@ -13,7 +13,7 @@ public class ServerSession : PESession<GameMessage>
         PECommon.Log("RcvPack: " + ((CMD)msg.cmd).ToString());
         SendMsg(new GameMessage { text = "SrvRsp:" + msg.text });
 
-        NetworkService.Instance.AddmsgQue(msg);
+        NetworkService.Instance.AddmsgQue(this,msg);
     }
 
     protected override void OnDisConnected()

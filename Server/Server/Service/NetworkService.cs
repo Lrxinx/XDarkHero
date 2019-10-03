@@ -32,11 +32,11 @@ public class NetworkService
        PECommon.Log("NetServer Init Done");
     }
    
-    public void AddmsgQue(MessagePack messagePack)
+    public void AddmsgQue(ServerSession serverSession,GameMessage gameMessage)
     {
         lock (obj)
         {
-            msgPackQue.Enqueue(messagePack);
+            msgPackQue.Enqueue(new MessagePack(serverSession,gameMessage));
         }
     }
 
@@ -47,8 +47,8 @@ public class NetworkService
             PECommon.Log($"PackCount: {msgPackQue.Count}");
             lock (obj)
             {
-                MessagePack msg = msgPackQue.Dequeue();
-                HandOutMsg(msg);
+                MessagePack messagePack = msgPackQue.Dequeue();
+                HandOutMsg(messagePack);
             }
         }
     }

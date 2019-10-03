@@ -16,3 +16,7 @@ E:\Unity\XDarkHero\Server\Server\obj\Debug\Server.csprojAssemblyReference.cache
 E:\Unity\XDarkHero\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
 E:\Unity\XDarkHero\Server\Server\obj\Debug\Server.exe
 E:\Unity\XDarkHero\Server\Server\obj\Debug\Server.pdb
+E:\Unity\XDarkHero\Assets\Script\Net\Server.exe.config
+E:\Unity\XDarkHero\Assets\Script\Net\Server.exe
+E:\Unity\XDarkHero\Assets\Script\Net\Server.pdb
+E:\Unity\XDarkHero\Server\Server\obj\Debug\Server.csproj.CopyComplete
