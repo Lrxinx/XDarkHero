@@ -58,7 +58,7 @@ public class NetworkService
         switch ((CMD)messagePack.gameMessage.cmd)
         {
             case CMD.ReqLogin:
-                LoginSys.Instance.RepLogin(messagePack);
+                LoginSys.Instance.ReqLogin(messagePack);
                 break;
             default:
                 break;

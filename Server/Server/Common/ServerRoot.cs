@@ -22,6 +22,7 @@ class ServerRoot
 
         //Network Layer
         NetworkService.Instance.Init();
+        CacheSvc.Instance.Init();
 
         //Business Layer
         LoginSys.Instance.Init();

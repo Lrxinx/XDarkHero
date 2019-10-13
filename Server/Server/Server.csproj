@@ -43,6 +43,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cache\CacheSvc.cs" />
     <Compile Include="Common\ServerRoot.cs" />
     <Compile Include="Common\ServerStart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

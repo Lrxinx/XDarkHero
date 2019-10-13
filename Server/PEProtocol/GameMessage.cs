@@ -21,7 +21,19 @@ namespace PEProtocol
     [Serializable]
     public class RspLogin
     {
+        public PlayerData playerData;
+    }
 
+    [Serializable]
+    public class PlayerData
+    {
+        public int id;
+        public string name;
+        public int lv;
+        public int exp;
+        public int power;
+        public int diamond;
+        public int coin;
     }
 
     public enum CMD
@@ -29,6 +41,12 @@ namespace PEProtocol
         None = 0,
         ReqLogin = 101,
         RspLogin = 102
+    }
+
+    public enum ErrorCode
+    {
+        None = 0,
+        AccountIsOnline,
     }
 
     public class SrvCfg
